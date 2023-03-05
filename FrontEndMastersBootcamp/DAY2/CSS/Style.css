@@ -1,0 +1,82 @@
+/* my first CSS */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #ffffcc;
+    height: 100%;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    bottom: 0;
+    position:absolute;
+    width: 100%;
+}
+.alinearalcentro{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border: 10px solid blue;
+
+}
+
+h1{
+    border: 5px dotted green;
+
+}
+h2, h3 {
+    border: 5px dotted blue;
+    font-size: 1.8rem;
+}
+blockquote{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    
+}
+cite {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.bigbold {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.headingfont{
+    font: italic  bold 2rem Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.3rem; /*distance between lines */ 
+    color: rgb(35, 136, 1);
+
+}
+.text_decorationoff {
+    text-decoration:none ;
+}
+
+
+ul a:link{
+    font-weight: bold;
+    color: orange;
+}
+ul a:visited{
+    color: green;
+    font-weight: normal;
+}
+ul a:hover{
+    color: blue;
+    text-decoration:dotted;
+    background-color: black;
+    
+}
+/* ID*/ 
+#Idexample{
+    color: brown;
+    background-color: gray;
+
+}

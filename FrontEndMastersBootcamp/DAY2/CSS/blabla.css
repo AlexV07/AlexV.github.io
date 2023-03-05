@@ -1,0 +1,17 @@
+.flexbox{
+    display: flex;
+    border: 0px green solid;
+    height: 40rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+footer{
+    border: 0px blue solid;
+    text-align: center;
+}
+.inputstyle{
+    border: blue 5px solid;
+}
